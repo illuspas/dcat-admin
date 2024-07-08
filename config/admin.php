@@ -264,8 +264,9 @@ return [
         // Disk in `config/filesystem.php`.
         'disk' => 'public',
 
-        // Image and file upload path under the disk above.
+        // Video image and file upload path under the disk above.
         'directory' => [
+            'video' => 'videos',
             'image' => 'images',
             'file'  => 'files',
         ],

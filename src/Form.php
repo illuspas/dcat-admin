@@ -71,6 +71,7 @@ use Symfony\Component\HttpFoundation\Response;
  * @method Field\Listbox listbox($column, $label = '')
  * @method Field\File file($column, $label = '')
  * @method Field\Image image($column, $label = '')
+ * @method Field\Video video($column, $label = '')
  * @method Field\MultipleFile multipleFile($column, $label = '')
  * @method Field\MultipleImage multipleImage($column, $label = '')
  * @method Field\HasMany hasMany($column, $labelOrCallback, $callback = null)
@@ -156,6 +157,7 @@ class Form implements Renderable
         'listbox'             => Field\Listbox::class,
         'file'                => Field\File::class,
         'image'               => Field\Image::class,
+        'video'               => Field\Video::class,
         'multipleFile'        => Field\MultipleFile::class,
         'multipleImage'       => Field\MultipleImage::class,
         'hasMany'             => Field\HasMany::class,
