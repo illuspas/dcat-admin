@@ -1,6 +1,6 @@
 {
     "name": "illuspas/dcat-admin",
-    "description": "dcat admin",
+    "description": "dcat admin for private use",
     "type": "library",
     "keywords": ["dcat", "laravel", "admin", "grid", "form", "laravel admin"],
     "homepage": "https://github.com/illuspas/dcat-admin",
